@@ -72,7 +72,7 @@ class RevolutStatement(BankStatement):
             amount, line = get_until_char(line, ' ')
             x = {
                 'date': date_trx,
-                'to_from': to_from.lstrip(),
+                'desc': to_from.lstrip(),
                 'amount': amount.replace('£', '').replace(',', ''),
                 'is_expense': is_expense
             }
