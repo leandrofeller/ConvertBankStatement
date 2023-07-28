@@ -22,7 +22,7 @@ The statement_file_path parameter should be the path to the PDF file of the bank
 The script will process the specified Monzo statement PDF file and output an array with a code and the transactions in a JSON format:
 
 <pre>
-  <code>[0, [{'date': datetime.date(2023, 6, 4), 'to_from': 'Payment from User Test', 'amount': '100.00', 'is_expense': False},{'date': datetime.date(2023, 6, 10), 'to_from': 'Supermarket X', 'amount': '4.50', 'is_expense': True}]]</code>
+  <code>[0, [{'date': datetime.date(2023, 6, 4), 'desc': 'Payment from User Test', 'amount': '100.00', 'is_expense': False},{'date': datetime.date(2023, 6, 10), 'desc': 'Supermarket X', 'amount': '4.50', 'is_expense': True}]]</code>
 </pre>
 
 <h3>Support</h3>
