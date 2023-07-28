@@ -1,6 +1,6 @@
 <h1>Convert Bank Statement</h1>
 
-ConvertBankStatement is a Python package designed to convert bank statements from PDF files to JSON format. The output will be an array with two positions. The first position is a code where negative numbers mean errors and 0 means successfully processed. The second position will be a message explain the error or the JSON with the transactions.</br>
+ConvertBankStatement is a Python module designed to convert bank statements from PDF files to JSON format. The output will be an array with two positions. The first position is a code where negative numbers mean errors and 0 means successfully processed. The second position will be a message explain the error or the JSON with the transactions.</br>
 Currently, the software supports statements from two banks, namely Monzo and Revolut.
 
 <h3>Usage</h3>
