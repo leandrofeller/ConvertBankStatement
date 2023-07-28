@@ -37,7 +37,7 @@ class MonzoStatement(BankStatement):
             is_expense = amount.find('-') >= 0
             x = {
                 'date': date_trx,
-                'to_from': line.replace(' ', '', 1),
+                'desc': line.replace(' ', '', 1),
                 'amount': amount.replace('-', '').replace(' ', '').replace(',', ''),
                 'is_expense': is_expense
             }
